@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body bgcolor="burlywood">
+    <center>
+      <h1><strong>KM Custom HTML Form Example Using AppleScript</strong></h1>
+      <h4>(by JMichealTX)</h4>
+    </center>
+    <table
+      style="text-align: left"
+      border="1px"
+      bgcolor="burlywood"
+      cellspacing="1"
+    >
+      <form method="post">
+        <tr>
+          <th>Name:</th>
+          <td><input type="text" name="name" value="John AppleScript" /></td>
+        </tr>
+        <tr>
+          <th>Email:</th>
+          <td>
+            <input type="email" name="email" value="johny@AppleScript.com" />
+          </td>
+        </tr>
+        <tr>
+          <th>Password:</th>
+          <td><input type="password" name="password" value="1234" /></td>
+        </tr>
+        <tr>
+          <td>
+            <b>Approval Required:</b><br />
+            Click on the button or text to<br />
+            check/uncheck.
+          </td>
+          <td><input type="checkbox" name="check" />Do you approve?</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Pick Your Favorite</b><br />Click on the button or text to<br />select.
+          </td>
+          <td>
+            <input type="radio" name="favorite" value="Choice B" />Choice A<br />
+            <input
+              type="radio"
+              name="favorite"
+              value="Choice B"
+              checked
+            />Choice B<br />
+            <input type="radio" name="favorite" value="Choice B" />Choice C
+          </td>
+        </tr>
+        <tr>
+          <th>Popup Menu:</th>
+          <td>
+            <select name="Menu">
+              <option type="dropdown" value="Texas -- TX">Texas -- TX</option>
+              <option type="dropdown" value="Texas -- TX">Texas -- TX</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>List</b><br />Setup Options:
+            <ul>
+              <li>Number of rows to display</li>
+              <li>Allow Multi-select</li>
+            </ul>
+          </td>
+          <td>
+            <select name="list" multiple>
+              <option type="dropdown">California -- CA</option>
+              <option type="dropdown">Colorado -- CO</option>
+              <option type="dropdown">Connecticut -- CN</option>
+              <option type="dropdown">Dalifornia -- DA</option>
+              <option type="dropdown">Dolorado -- DO</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Field Ignored By KM</th>
+          <td><input type="text" value="10,384" /></td>
+        </tr>
+        <tr>
+          <th>Text Area</th>
+          <td>
+            <textarea name="comments" cols="60" rows="3">
+Now is the time for all good men to come to the aid of their country</textarea
+            >
+          </td>
+        </tr>
+      </form>
+    </table>
+    <button bgcolor="blue">Save</button>
+    <button>Cancel</button>
+    <button bgcolor="lightgray">Resize</button>
+    <h2><a href="index.html">GO BACK</a></h2>
+  </body>
+</html>
